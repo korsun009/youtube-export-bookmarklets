@@ -1,0 +1,21 @@
+{
+  "name": "youtube-export-bookmarklets",
+  "version": "1.0.0",
+  "description": "Browser bookmarklets and DevTools snippets for exporting YouTube comments, transcripts and subtitles to TXT, Markdown, JSON, CSV, SRT, VTT and ZIP.",
+  "private": true,
+  "license": "MIT",
+  "repository": "https://github.com/korsun009/youtube-export-bookmarklets",
+  "keywords": [
+    "youtube-comments-exporter",
+    "youtube-transcript-downloader",
+    "youtube-subtitles",
+    "bookmarklet",
+    "devtools-snippet"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node tools/build-bookmarklets.mjs",
+    "verify": "npm test && npm run build"
+  }
+}

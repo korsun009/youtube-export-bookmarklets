@@ -1,0 +1,13 @@
+node_modules/
+*.log
+*.zip
+.DS_Store
+Thumbs.db
+
+# Local research and superseded prototypes are intentionally not published.
+/conversation.md
+/Снимок экрана*.png
+/Почти готовый скрипт/
+/youtube-transcript-subtitle-exporter-v2/
+/youtube-comments-api-exporter-v5.1.zip
+/tools/live-cdp-eval.mjs
